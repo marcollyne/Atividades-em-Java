@@ -26,12 +26,12 @@ public class Exercicio21 {
         double soma = livroJava8 + livroTDD;
         double sub = livroJava8 - livroTDD;
         double mult = livroJava8 * livroTDD;
-        //double div = livroJava8 / livroTDD;
+        double div = livroJava8 / livroTDD;
         
         System.out.println("Soma: " + df.format(soma));
         System.out.println("Subtração: " + df.format(sub));
         System.out.println("Multiplicação: " + df.format(mult));
-        //System.out.println("Divisão: " + df.format(div));
+        System.out.println("Divisão: " + df.format(div));
         
     }
         

@@ -1,3 +1,6 @@
+
+import java.text.DecimalFormat;
+
 /*
  Exercicios simples de introdução de java acompanhando o livro "Desbravando Java
  e Orientação a Objetos".
@@ -17,11 +20,18 @@ public class Exercicio21 {
     
     public static void main(String[] args) {
         
-        double livroJava8 = 59.90;
+        DecimalFormat df = new DecimalFormat("0.00");
+        double livroJava8 = 89.90;
         double livroTDD = 59.90;
         double soma = livroJava8 + livroTDD;
+        double sub = livroJava8 - livroTDD;
+        //double mult = livroJava8 * livroTDD;
+        //double div = livroJava8 / livroTDD;
         
-        System.out.println("O total em estoque é " + soma);
+        System.out.println("Soma: " + df.format(soma));
+        System.out.println("Subtração: " + df.format(sub));
+        //System.out.println("Multiplicação: " + mult);
+        //System.out.println("Divisão: " + div);
         
     }
         

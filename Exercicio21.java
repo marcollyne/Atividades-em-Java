@@ -13,7 +13,8 @@ import java.text.DecimalFormat;
 
 /*2.2 Declaração e atribuição de variáveis
 Vamos criar uma nova classe Java cujo objetivo será calcular o valor
-total de livros do nosso estoque na livraria
+total de livros do nosso estoque na livraria usando as operações de soma, 
+subtração, multiplicação e divisão.
 */
 
 public class Exercicio21 {

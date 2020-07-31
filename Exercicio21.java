@@ -40,9 +40,9 @@ public class Exercicio21 {
             System.out.println("Seu estoque está bom (y)");
         }
     }
-    
+
     //operador ternario
     /*
     double valor = v1 > v2 ? 100 : 0;
-    */
+     */
 }

@@ -54,6 +54,27 @@ public class Exercicio22 {
         } else {
             System.out.println("Seu estoque está bom (y)");
         }
+        
+        
+        //usando break e continue no looping
+        
+        System.out.println("");
+        System.out.println("Usando continue");
+        for (int j = 0; j < 10; j++) {
+            if(j == 7){
+                continue;
+            }
+            System.out.println(j);
+        }
+         System.out.println("");
+         System.out.println("Usando break");
+         
+         for (int j = 0; j < 10; j++) {
+            if(j == 7){
+                break;
+            }
+            System.out.println(j);
+        }
     }
 
 }

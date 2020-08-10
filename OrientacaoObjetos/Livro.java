@@ -13,17 +13,15 @@ public class Livro {
     String descricao;
     double valor;
     String isbn;
-    String nomeAutor;
-    String emailAutor;
-    String cpfAutor;
+    Autor autor;
     
-    public void mostrarDetalhes() {
-        String mensagem = "Mostrando detalhes do livro: ";
-        System.out.println(mensagem);
+    public void detalhesLivro() {
+        System.out.println("Mostrando detalhes do livro: ");
         System.out.println("Nome: " + nome);
         System.out.println("Descrição: " + descricao);
         System.out.println("Valor: " + valor);
         System.out.println("ISBN: " + isbn);
+        autor.detalhesAutor();
         System.out.println("--");
 
     }

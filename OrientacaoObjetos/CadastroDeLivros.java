@@ -19,11 +19,11 @@ public class CadastroDeLivros {
         autor.cpf = "123.456.789.10";
 
         Livro livro = new Livro();
-        livro.nome = "java 8 prático";
-        livro.descricao = "novos recursos da linguagem";
-        livro.valor = 59.90;
-        livro.isbn = "978-85-66250-46-6";
-        livro.autor = autor;
+        livro.setNome("java 8 prático");
+        livro.setDescricao("novos recursos da linguagem");
+        livro.setValor(59.90);
+        livro.setIsbn("978-85-66250-46-6");
+        livro.setAutor(autor);
         livro.detalhesLivro();
         
 
@@ -33,18 +33,18 @@ public class CadastroDeLivros {
         outroautor.cpf = "123.456.789.10";
 
         Livro outroLivro = new Livro();
-        outroLivro.nome = "Logica de programação";
-        outroLivro.descricao = "Crie seus primeiros programas";
-        outroLivro.valor = 59.90;
-        outroLivro.isbn = "978-85-66250-22-0";
-        outroLivro.autor = outroautor;
+        outroLivro.setNome("Logica de programação");
+        outroLivro.setDescricao("Crie seus primeiros programas");
+        outroLivro.setValor(59.90);
+        outroLivro.setIsbn("978-85-66250-22-0");
+        outroLivro.setAutor(outroautor);
         outroLivro.detalhesLivro();
 
         Livro livro3 = new Livro();
-        livro3.nome = "Mundo de fanatsia";
-        livro3.descricao = "magia e ficção";
-        livro3.valor = 59.90;
-        livro3.isbn = "978-85-66250-26-9";
+        livro3.setNome("Mundo de fanatsia");
+        livro3.setDescricao("magia e ficção");
+        livro3.setValor(59.90);
+        livro3.setIsbn("978-85-66250-26-9");
         livro3.detalhesLivro();
     }
 }

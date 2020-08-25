@@ -25,6 +25,7 @@ public class CadastroDeLivros {
         livro.isbn = "978-85-66250-46-6";
         livro.autor = autor;
         livro.detalhesLivro();
+        
 
         Autor outroautor = new Autor();
         outroautor.nome = "Paulo Silveira";
@@ -39,5 +40,11 @@ public class CadastroDeLivros {
         outroLivro.autor = outroautor;
         outroLivro.detalhesLivro();
 
+        Livro livro3 = new Livro();
+        livro3.nome = "Mundo de fanatsia";
+        livro3.descricao = "magia e ficção";
+        livro3.valor = 59.90;
+        livro3.isbn = "978-85-66250-26-9";
+        livro3.detalhesLivro();
     }
 }

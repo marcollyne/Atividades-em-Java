@@ -14,9 +14,9 @@ public class CadastroDeLivros {
     public static void main(String[] args) {
 
         Autor autor = new Autor();
-        autor.nome = "Rodrigo Turini";
-        autor.email = "rodrigo.turini@caelum.com.br";
-        autor.cpf = "123.456.789.10";
+        autor.setNome("Rodrigo Turini");
+        autor.setEmail("rodrigo.turini@caelum.com.br");
+        autor.setCpf("123.456.789.10");
 
         Livro livro = new Livro();
         livro.setNome("java 8 prático");
@@ -28,9 +28,9 @@ public class CadastroDeLivros {
         
 
         Autor outroautor = new Autor();
-        outroautor.nome = "Paulo Silveira";
-        outroautor.email = "paulo.silveira@caelum.com.br";
-        outroautor.cpf = "123.456.789.10";
+        outroautor.setNome("Paulo Silveira");
+        outroautor.setEmail("paulo.silveira@caelum.com.br");
+        outroautor.setCpf("123.456.789.10");
 
         Livro outroLivro = new Livro();
         outroLivro.setNome("Logica de programação");

@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package OrientacaoObjetos;
 
 /**
@@ -18,7 +14,7 @@ public class CadastroDeLivros {
         autor.setEmail("rodrigo.turini@caelum.com.br");
         autor.setCpf("123.456.789.10");
 
-        Livro livro = new Livro();
+        Livro livro = new Livro(autor);
         livro.setNome("java 8 prático");
         livro.setDescricao("novos recursos da linguagem");
         livro.setValor(59.90);
@@ -32,7 +28,7 @@ public class CadastroDeLivros {
         outroautor.setEmail("paulo.silveira@caelum.com.br");
         outroautor.setCpf("123.456.789.10");
 
-        Livro outroLivro = new Livro();
+        Livro outroLivro = new Livro(outroautor);
         outroLivro.setNome("Logica de programação");
         outroLivro.setDescricao("Crie seus primeiros programas");
         outroLivro.setValor(59.90);
@@ -40,11 +36,11 @@ public class CadastroDeLivros {
         outroLivro.setAutor(outroautor);
         outroLivro.detalhesLivro();
 
-        Livro livro3 = new Livro();
-        livro3.setNome("Mundo de fanatsia");
-        livro3.setDescricao("magia e ficção");
-        livro3.setValor(59.90);
-        livro3.setIsbn("978-85-66250-26-9");
-        livro3.detalhesLivro();
+////        Livro livro3 = new Livro();
+////        livro3.setNome("Mundo de fanatsia");
+////        livro3.setDescricao("magia e ficção");
+////        livro3.setValor(59.90);
+////        livro3.setIsbn("978-85-66250-26-9");
+////        livro3.detalhesLivro();
     }
 }

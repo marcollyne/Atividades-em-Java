@@ -15,8 +15,12 @@ public class Livro {
     private double valor;
     private Autor autor;
 
-    public Livro() {
+//    public Livro() {
+//
+//    }
 
+    public Livro(Autor autor) {
+        this.autor = autor;
     }
 
     public String getNome() {
